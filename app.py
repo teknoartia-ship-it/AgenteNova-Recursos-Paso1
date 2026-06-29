@@ -31,7 +31,7 @@ if URL_PROYECTO and TOKEN_TELEGRAM:
 def obtener_respuesta_ia(texto_usuario):
     """Envía el mensaje a la IA y devuelve la respuesta personalizada"""
     payload = {
-        "model": "gpt-oss-20b",
+        "model": "openai/gpt-oss-20b",
         "messages": [
             {
                 "role": "system",
